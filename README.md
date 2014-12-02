@@ -59,8 +59,10 @@ To achieve that, you can have three tabs in your terminal, and run the following
 \* As a requirements reminder, you need to have redis and sideqik installed.
 
 First tab: `rails server`  
-Second tab: `redis-server`
+Second tab: `redis-server`  
 Third tab: `sideqik`  
+
+![](http://h6c5.com//system/pictures/images/000/000/001/original/Screen_Shot_2014-12-02_at_2.13.13_PM.png?1417554849)
 
 End of the Ignition instructions.  
 
