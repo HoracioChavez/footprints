@@ -83,16 +83,17 @@ There are some cool features, like:
   * If you to one of your trips feed, and scroll a little, you're going to find the "Add a friend..." input.
   * You can add any footprints user into your trip.
   * You can add as many users as you want, but one by one.
-  * After you add friends to your trip, their posts are going to be in this trip with your own posts.
-
+  * After you add friends to your trip, their posts are going to be in this trip with your own posts.  
+<br>
 * Hide/Show posts.
-
   * If there is a post from your Twitter/Instagram accounts that you don't want to include in your trips, you can hide it.
   * To hide a post, go to the right post and then click on "Hide Your Post".
-
-
-
-
+  * To revert this action, a.k.a. to show the post again, click on the gear in the top navigation bar, and the select "Hidden posts".
+  * Once your founded the right post, just click on "Show your post". Now this post is going to be available again in all your trips.
 
 
 ### TL;DR
+
+This project was developed by a team of four: @MarcGarreau, @emilyadavis303, @timproctor and I @HoracioChavez.  
+
+We developed this project as part of our @TuringSchool curriculum based on this [requirements](http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html).
