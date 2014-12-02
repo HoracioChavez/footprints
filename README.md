@@ -1,6 +1,8 @@
 # Footprints.
 
-Feel free to visit the live project [here](http://h6c5.com/footprints).
+Feel free to visit the live project <a href="http://h6c5.com/footprints" target="_blank">here</a>.
+
+
 
 ### What is this WebApp for?
 
