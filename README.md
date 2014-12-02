@@ -88,7 +88,10 @@ There are some cool features, like:
   * You can add as many users as you want, but one by one.
   * After you add friends to your trip, their posts are going to be in this trip with your own posts.
 
-*  
+* Hide/Show posts.
+
+  * If there is a post from your Twitter/Instagram accounts that you don't want to include in your trips, you can hide it.
+  * To hide a post, go to the right post and then click on "Hide Your Post".
 
 
 
