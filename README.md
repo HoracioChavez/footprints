@@ -96,4 +96,4 @@ There are some cool features, like:
 
 This project was developed by a team of four: Marc Garreau, Emily Davis, Tim Proctor and Horacio Chavez.
 
-We developed this project as part of our [Turing School](http://turing.io) curriculum based on this [requirements](http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html).
+We developed this project as part of the <a href="http://turing.io/" target="_blank">Turing School</a> curriculum based on this <a href="http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html" target="_blank">requirements</a>.
