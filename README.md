@@ -11,27 +11,18 @@ Designed for mobile, this WebApp allows users to create trips while aggregates s
 
 ### How to install.  
 
-To make this work, you need to follow the next guide.
+To make this work, please:
 
-**1. Clone this repo.**
+1. Clone this repo.  
+2. Install all the required gems.  
+3. Create your database and required tables.
 
 ```
 git clone git@github.com:HoracioChavez/footprints.git
-```
-
-**2. Install all the required gems.**
-
-```
 bundle install
-```
-
-**3. Create your database and required tables.**
-
-```
 rake db:create db:schema:load
 ```
-```
-```
+
 
 
 
