@@ -46,7 +46,7 @@ Now you're ready to go!
 
 ### Basics to use this app?
 
-Please read the full "Ignition instructions" before start.
+Please read the full "Ignition instructions" before start typing.
 
 **Ignition instructions.**
 
@@ -58,9 +58,11 @@ To achieve that, you can have three tabs in your terminal, and run the following
 
 \* As a requirements reminder, you need to have redis and sideqik installed.
 
-First tab: `rails server`  
+First tab: `rails s`  
+
 Second tab: `redis-server`  
-Third tab: `sideqik`  
+
+Third tab: `sideqik`
 
 ![](http://h6c5.com//system/pictures/images/000/000/001/original/Screen_Shot_2014-12-02_at_2.13.13_PM.png?1417554849)
 
@@ -68,7 +70,25 @@ End of the Ignition instructions.
 
 **How to enjoy footprints**
 
+Go to `localhost:3000` in your browser, and click "Sign in with Instagram".  The first time is going to redirect you to instagram, and then to Footprints. You should have an Instagram account to use Footprints.
 
+Congrats! Now you're in Footprints!
+
+There are some cool features, like:
+
+* Create (CRUD) trips.
+  * A trip is created using your posts from Twitter and Instagram.
+  * A trip is going to include every post inside the duration of the trip.
+  * Footprints only pulls the latest 20 posts from your Instagram/Twitter accounts. Please consider this when you define your trip's duration.
+
+
+* Add friends to your trips.
+  * If you to one of your trips feed, and scroll a little, you're going to find the "Add a friend..." input.
+  * You can add any footprints user into your trip.
+  * You can add as many users as you want, but one by one.
+  * After you add friends to your trip, their posts are going to be in this trip with your own posts.
+
+*  
 
 
 
