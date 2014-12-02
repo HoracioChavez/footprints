@@ -92,7 +92,7 @@ There are some cool features, like:
   * Once your founded the right post, just click on "Show your post". Now this post is going to be available again in all your trips.
 
 
-### TL;DR
+### The Team.
 
 This project was developed by a team of four: Emily Davis, Marc Garreau, Tim Proctor and Horacio Chavez.
 
