@@ -94,6 +94,6 @@ There are some cool features, like:
 
 ### TL;DR
 
-This project was developed by a team of four: @MarcGarreau, @emilyadavis303, @timproctor and I @HoracioChavez.  
+This project was developed by a team of four: Marc Garreau, Emily Davis, Tim Proctor and Horacio Chavez.
 
-We developed this project as part of our @TuringSchool curriculum based on this [requirements](http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html).
+We developed this project as part of our [Turing School](http://turing.io) curriculum based on this [requirements](http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html).
