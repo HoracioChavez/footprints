@@ -42,10 +42,35 @@ INSTAGRAM_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxx
 TWITTER_ID: xxxxxxxxxxxxxxxxxxxxxxxxxx
 TWITTER_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
-
 Now you're ready to go!
 
 ### Basics to use this app?
+
+Please read the full "Ignition instructions" before start.
+
+**Ignition instructions.**
+
+To start, you have to run the server. I'm using `rails server`, but you can use your favourite server ( i.e. unicorn ). Just be sure you're using port 3000 ( i.e. `unicorn -p 3000` ).  
+
+At the same time you should have running `sidekiq` and `redis-server`.
+
+To achieve that, you can have three tabs in your terminal, and run the following commands in each of those.  
+
+\* As a requirements reminder, you need to have redis and sideqik installed.
+
+First tab: `rails server`  
+Second tab: `redis-server`
+Third tab: `sideqik`  
+
+End of the Ignition instructions.  
+
+**How to enjoy footprints**
+
+
+
+
+
+
 
 
 ### TL;DR
