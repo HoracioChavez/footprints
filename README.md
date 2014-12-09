@@ -6,7 +6,7 @@ Please keep in mind, that this App was designed only for mobile.
 
 Designed for mobile, this WebApp allows users to create trips while aggregates social media posts using Twitter and Instagram OAuth.
 
-<div style="text-align:center"><img src http://h6c5.com//system/pictures/images/000/000/002/original/output_LPUJb3.gif?1418083569 /></div>
+![](http://h6c5.com//system/pictures/images/000/000/002/original/output_LPUJb3.gif?1418083569)
 
 ### Requirements.
 
