@@ -55,13 +55,13 @@ At the same time you should have running `sidekiq` and `redis-server`.
 
 To achieve that, you can have three tabs in your terminal, and run the following commands in each of those.  
 
-\* As a requirements reminder, you need to have redis and sideqik installed.
+\* As a requirements reminder, you need to have redis and sidekiq installed.
 
 First tab: `rails s`  
 
 Second tab: `redis-server`  
 
-Third tab: `sideqik`
+Third tab: `sidekiq`
 
 ![](http://h6c5.com//system/pictures/images/000/000/001/original/Screen_Shot_2014-12-02_at_2.13.13_PM.png?1417554849)
 
