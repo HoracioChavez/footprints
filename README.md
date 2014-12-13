@@ -3,13 +3,13 @@
 [![Code Climate](https://codeclimate.com/github/HoracioChavez/footprints/badges/gpa.svg)](https://codeclimate.com/github/HoracioChavez/footprints)
 
 Feel free to visit the live project <a href="http://h6c5.com/footprints" target="_blank">here</a>.  
-Please keep in mind, that this App was designed only for mobile.
+Please keep in mind this App was designed only for mobile.
 ### What is this WebApp for?
 
 Designed for mobile, this WebApp allows users to create trips while aggregates social media posts using Twitter and Instagram OAuth.
 
-![](http://h6c5.com//system/pictures/images/000/000/002/original/output_LPUJb3.gif?1418083569)
-
+<p align="center"><img src="http://h6c5.com//system/pictures/images/000/000/002/original/output_LPUJb3.gif?1418083569">
+</p>
 ### Requirements.
 
 This was builded over Ruby version 2.1.2 and Rails 4.1.6. It was not tested with any other version. Also, you need to have installed PostgreSQL, Redis and Sidekiq.
@@ -57,13 +57,13 @@ At the same time you should have running `sidekiq` and `redis-server`.
 
 To achieve that, you can have three tabs in your terminal, and run the following commands in each of those.  
 
-\* As a requirements reminder, you need to have redis and sideqik installed.
+\* As a requirements reminder, you need to have redis and sidekiq installed.
 
 First tab: `rails s`  
 
 Second tab: `redis-server`  
 
-Third tab: `sideqik`
+Third tab: `sidekiq`
 
 ![](http://h6c5.com//system/pictures/images/000/000/001/original/Screen_Shot_2014-12-02_at_2.13.13_PM.png?1417554849)
 
