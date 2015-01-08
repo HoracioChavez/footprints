@@ -16,9 +16,9 @@ This was builded over Ruby version 2.1.2 and Rails 4.1.6. It was not tested with
 
 ### How to install.  
 
-To make this work, please:
+To make this web app work, please:
 
-1. Clone this repo.  
+1. Clone the repo.  
 2. Install all the required gems.  
 3. Create your database and required tables.
 
@@ -34,9 +34,9 @@ Now, you need to install Figaro.
 figaro install
 ```
 
-Figaro created `config/application.yml`there you have to include some tokens. For security reasons, I'm not sharing the tokens here, but you can create your owns. To do that, please go to [Instagram Developers](http://instagram.com/developer/) and [Twitter Application Managment](https://apps.twitter.com).
+Figaro created `config/application.yml`. There you have to include some tokens. For security reasons, I'm not sharing my personal tokens here. To do create your own tokens, please go to [Instagram Developers](http://instagram.com/developer/) and [Twitter Application Managment](https://apps.twitter.com).
 
-Once you have those tokens, just fill your `config/application.yml` to look like this. Of course, instead of the x's should be your tokens.
+Once you have the tokens, fill your `config/application.yml` to look like this. Of course, instead of the x's should be your tokens.
 ```
 INSTAGRAM_ID: xxxxxxxxxxxxxxxxxxxxxxxxxx
 INSTAGRAM_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxx
@@ -71,7 +71,7 @@ End of the Ignition instructions.
 
 **How to enjoy footprints**
 
-Go to `localhost:3000` in your browser, and click "Sign in with Instagram".  The first time is going to redirect you to instagram, and then to Footprints. You should have an Instagram account to use Footprints.
+Go to `localhost:3000` in your browser, and click "Sign in with Instagram".  Footprints is going to redirect you to instagram, and then back to Footprints. You should have an Instagram account to use Footprints.
 
 Congrats! Now you're in Footprints!
 
