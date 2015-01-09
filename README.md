@@ -1,81 +1,75 @@
 # Footprints.
+### A social media aggregator to create trips with your friends.
 
-[![Code Climate](https://codeclimate.com/github/HoracioChavez/footprints/badges/gpa.svg)](https://codeclimate.com/github/HoracioChavez/footprints)
+[![Code Climate](https://codeclimate.com/github/HoracioChavez/footprints/badges/gpa.svg)](https://codeclimate.com/github/HoracioChavez/footprints) 
 
-Feel free to visit the live project <a href="http://h6c5.com/footprints" target="_blank">here</a>.  
-Please keep in mind this App was designed only for mobile.
-### What is this WebApp for?
+You can visit the [live app here](http://h6c5.com/footprints) and also this content as part of my [portfolio](http://h6c5.com/horaciochavez).
 
-Designed for mobile, this WebApp allows users to create trips while aggregates social media posts using Twitter and Instagram OAuth.
+## What is this web app for?
+#### Get posts from social media to create albums by dates range.
 
-<p align="center"><img src="http://h6c5.com//system/pictures/images/000/000/002/original/output_LPUJb3.gif?1418083569">
-</p>
-### Requirements.
+Footprints synchronizes posts across your/your friends' tweets and instagram posts to create trips/albums by a date range. It's much better than having those posts in every network, because it's easiest for users to keep their memories in one place. Footprints is kind of like taking the best elements from iPhoto, Twitter, Instagram and GoogleMaps. People have access to these tools, but they need to make an extra big effort to achieve it. 
 
-This was builded over Ruby version 2.1.2 and Rails 4.1.6. It was not tested with any other version. Also, you need to have installed PostgreSQL, Redis and Sidekiq.
+## Technical requirements.
+#### Rails + PostgreSQL + Redis + Sidekiq.
 
-### How to install.  
+This was builded over Ruby version 2.1.2 and Rails 4.1.6. It was never tested with any other version. You will need to have installed PostgreSQL, Redis and Sidekiq.
 
-To make this web app work, please:
+Also, you will require an [instagram](http://instagram.com) account to use footprints.
 
-1. Clone the repo.  
-2. Install all the required gems.  
-3. Create your database and required tables.
+## How to install.
+#### Git Clone + Bundle + Rake + Figaro + Tokens.
 
-```
+To start, you need to clone the project to your local machine, install all the required gems and create the database and tables.
+
+```bash
 git clone git@github.com:HoracioChavez/footprints.git
 bundle install
 rake db:create db:schema:load
 ```
 
-Now, you need to install Figaro.
+Now you have figaro in your system, but you need to install it.
 
-```
+```bash
 figaro install
 ```
 
-Figaro created `config/application.yml`. There you have to include some tokens. For security reasons, I'm not sharing my personal tokens here. To do create your own tokens, please go to [Instagram Developers](http://instagram.com/developer/) and [Twitter Application Managment](https://apps.twitter.com).
+Figaro created a `config/application.yml` file. There you have to include some social network tokens. For security reasons, I'm not sharing my personal tokens here, and neither should you . To do create your own tokens, please go to [Instagram Developers](http://instagram.com/developer/) and [Twitter Application Managment](https://apps.twitter.com).
 
-Once you have the tokens, fill your `config/application.yml` to look like this. Of course, instead of the x's should be your tokens.
+Once you have the tokens, fill your `config/application.yml` file to look like this. 
+Of course, instead of the x's should be your tokens.
+
+```ruby
+INSTAGRAM_ID: 'xxxxxx'
+INSTAGRAM_SECRET: 'xxxxxx'
+TWITTER_ID: 'xxxxxx'
+TWITTER_SECRET: 'xxxxxx'
 ```
-INSTAGRAM_ID: xxxxxxxxxxxxxxxxxxxxxxxxxx
-INSTAGRAM_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxx
-TWITTER_ID: xxxxxxxxxxxxxxxxxxxxxxxxxx
-TWITTER_SECRET: xxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-Now you're ready to go!
+Congrats! Now you have footprints completely installed in your system.
 
-### Basics to use this app?
+## How to run the app.
+#### Server + Redis + Sidekiq.
 
-Please read the full "Ignition instructions" before start typing.
-
-**Ignition instructions.**
-
-To start, you have to run the server. I'm using `rails server`, but you can use your favourite server ( i.e. unicorn ). Just be sure you're using port 3000 ( i.e. `unicorn -p 3000` ).  
+To start, you have to run the server. Here, I'm using `rails server`, but you can use your favourite server ( i.e. unicorn ). Just be sure you're using port 3000 ( i.e. `unicorn -p 3000` ).  
 
 At the same time you should have running `sidekiq` and `redis-server`.
 
 To achieve that, you can have three tabs in your terminal, and run the following commands in each of those.  
 
-\* As a requirements reminder, you need to have redis and sidekiq installed.
+\* As a requirements reminder, you need to have redis and sidekiq previously installed.
 
-First tab: `rails s`  
-
-Second tab: `redis-server`  
-
-Third tab: `sidekiq`
+First tab: `rails s`, second tab: `redis-server` and third tab: `sidekiq`.
 
 ![](http://h6c5.com//system/pictures/images/000/000/001/original/Screen_Shot_2014-12-02_at_2.13.13_PM.png?1417554849)
 
-End of the Ignition instructions.  
+## How to enjoy footprints.
+#### Have friends and travel a lot!
 
-**How to enjoy footprints**
+In your mobile browser, go to `localhost:3000`, and click "Sign in with Instagram".  Footprints is going to redirect you to instagram, and then back to Footprints. **You should have an Instagram account to use Footprints.**
 
-Go to `localhost:3000` in your browser, and click "Sign in with Instagram".  Footprints is going to redirect you to instagram, and then back to Footprints. You should have an Instagram account to use Footprints.
+##### Congrats! Now you're in Footprints!
 
-Congrats! Now you're in Footprints!
-
-There are some cool features, like:
+These are some cool features.
 
 * Create (CRUD) trips.
   * A trip is created using your posts from Twitter and Instagram.
@@ -95,7 +89,9 @@ There are some cool features, like:
   * To revert this action, a.k.a. to show the post again, click on the gear in the top navigation bar, and the select "Hidden posts".
   * Once your founded the right post, just click on "Show your post". Now this post is going to be available again in all your trips.
 
+##The team.
+#### Cool people build cool products.
 
-### The Team.
+Developed during almost 3 weeks and in team of four, footprints was a communication and pair programming success. I really enjoyed working with [Marc Garreau](https://github.com/MarcGarreau), [Emily Davis](https://github.com/emilyadavis303) and [Tim Proctor](https://github.com/timproctor). 
 
-We developed this project pairing extensively as part of the <a href="http://turing.io/" target="_blank">Turing School</a> curriculum based on this <a href="http://tutorials.jumpstartlab.com/projects/feed_engine/feed_engine.html" target="_blank">requirements</a>.
+##### Great communication and daily stand-up meetings were key to the success of this project. 
