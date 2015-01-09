@@ -5,7 +5,7 @@
 
 You can visit the [live app here](http://h6c5.com/footprints) and also this content as part of my [portfolio](http://h6c5.com/horaciochavez).
 
-### What is this web app for?
+## What is this web app for?
 #### Get posts from social media to create albums by dates range.
 
 Footprints synchronizes posts across your/your friends' tweets and instagram posts to create trips/albums by a date range. It's much better than having those posts in every network, because it's easiest for users to keep their memories in one place. Footprints is kind of like taking the best elements from iPhoto, Twitter, Instagram and GoogleMaps. People have access to these tools, but they need to make an extra big effort to achieve it. 
