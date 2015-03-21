@@ -60,8 +60,6 @@ To achieve that, you can have three tabs in your terminal, and run the following
 
 First tab: `rails s`, second tab: `redis-server` and third tab: `sidekiq`.
 
-![](http://h6c5.com//system/pictures/images/000/000/001/original/Screen_Shot_2014-12-02_at_2.13.13_PM.png?1417554849)
-
 ## How to enjoy footprints.
 #### Have friends and travel a lot!
 
